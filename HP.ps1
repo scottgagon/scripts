@@ -13,7 +13,7 @@ Write-Host "For Wizards and Sorcerors, Your Max Hit Points are $HP plus $Current
 ## d8 Artificer, Bard, Cleric, Druid, Monk, Rogue, Warlock
 $HitDieSize = 8
 $HP = 3 * $HitDieSize + ($CurrentLevel - 3) * ($HitDieSize/2 + 1)
-Write-Host "For Artificers, ClericS, DruidS, Monks, Rogues, and Warlocks, your Max Hit Points are $HP plus $CurrentLevel times your CON mod."
+Write-Host "For Artificers, Bards, Clerics, Druids, Monks, Rogues, and Warlocks, your Max Hit Points are $HP plus $CurrentLevel times your CON mod."
 
 ## d10 Fighter, Paladin, Ranger
 $HitDieSize = 10
