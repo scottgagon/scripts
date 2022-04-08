@@ -1,5 +1,6 @@
-$CurrentLevel = 7
+$CurrentLevel = Read-Host "Please enter a campaign level"
 
+Write-Host
 Write-host "The current Campaign Level is $CurrentLevel. The following HP values assume you are doing Fixed Max HP and single classes."
 Write-Host "If you are rolling for HP or are multi-classing, you are on your own."
 Write-Host
