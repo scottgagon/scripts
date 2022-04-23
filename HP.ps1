@@ -4,12 +4,13 @@ Write-Host
 Write-host "The current Campaign Level is $CurrentLevel. The following HP values assume you are doing Fixed Max HP and single classes."
 Write-Host "If you are rolling for HP or are multi-classing, you are on your own."
 Write-Host
+Write-Host 'For DDBeyond users, you can use the base number below as the "Rolled HP" and DDB will add your CON mod and any Feats automagically.'
+Write-Host
 
 ## d6 Wizard, Sorc
 $HitDieSize = 6
 $HP = 3 * $HitDieSize + ($CurrentLevel - 3) * ($HitDieSize/2 + 1)
 Write-Host "For Wizards and Sorcerors, Your Max Hit Points are $HP plus $CurrentLevel times your CON mod."
- 
 
 ## d8 Artificer, Bard, Cleric, Druid, Monk, Rogue, Warlock
 $HitDieSize = 8
